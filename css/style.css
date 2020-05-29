@@ -44,6 +44,7 @@
   backdrop-filter: blur(20px);
   position: absolute;
   z-index: 3;
+  display: none;
 }
 .info-about .about-box {
   width: 100%;
@@ -263,6 +264,8 @@
   display: flex;
   align-items: flex-end;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 7;
 }
 .content-bottom .buttons .button {
   width: 83px;
